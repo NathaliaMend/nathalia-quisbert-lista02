@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade</title>
+</head>
+
+<body style="background-color: rgb(147, 98, 246);">
+        <h1 style="color: aliceblue;">Verificador de Idade</h1>
+        <div style="background-color: aliceblue; padding: 10px;">
+
+            <p>Ano de Nascimento: <input type="number" id="ano"></p>
+            <p>Sexo: <input type="radio" name="sexo" value="homem">Masculino <input type="radio" name="sexo" value="mulher">Feminino </p>
+            <input type="button" onclick="verificaIdade()" value="Verificar">
+            <p id="dados">Preencha os dados acima para ver o resultado...</p>
+            <img id="resultado"></img>
+
+        </div>
+<script src="verificadorIdade.js"></script>
+</body>
+
+</html>
